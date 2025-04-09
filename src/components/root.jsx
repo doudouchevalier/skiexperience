@@ -1,10 +1,10 @@
-/* fichier root.jsx */
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import ErrorPage from "../pages/404";
-import About from "../pages/about";
-import Article from "../pages/article";
+import ErrorPage from "../pages/NotFound";
 import Home from "../pages/home";
+import Cart from "../pages/cart";
+import Product from "../pages/product";
+import Items from "../pages/items";
 
 const router = createBrowserRouter([
   {
@@ -17,12 +17,16 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/about",
-        element: <About />
+        path: "/my-cart",
+        element: <Cart />
       },
       {
-        path: "/article",
-        element: <Article />
+        path: "/items",
+        element: <Items />
+      },
+      {
+        path: "/product",
+        element: <Product />
       }
     ]
   }
