@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,7 +15,6 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
@@ -25,8 +24,9 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  justify-content: space-around;
   place-items: center;
-  min-width: 320px;
+  width: 100vw;
   min-height: 100vh;
 }
 
@@ -66,3 +66,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@import "tailwindcss";
