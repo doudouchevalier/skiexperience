@@ -3,7 +3,6 @@ import App from "../App";
 import ErrorPage from "../pages/NotFound";
 import Home from "../pages/home";
 import Cart from "../pages/cart";
-import Product from "../pages/product";
 import Items from "../pages/items";
 
 const router = createBrowserRouter([
@@ -23,10 +22,6 @@ const router = createBrowserRouter([
       {
         path: "/items",
         element: <Items />
-      },
-      {
-        path: "/product",
-        element: <Product />
       }
     ]
   }
