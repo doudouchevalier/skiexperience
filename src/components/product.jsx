@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Product = ({ product }) => {
 	return (
 		<div className="col-span-12 md:col-span-6 lg:col-span-4">
-			<div className="bg-white shadow border rounded-xl p-4 pb-0">
+			<div className="bg-white shadow p-4 pb-0">
 				<div className="bg-gray-100 rounded flex justify-center items-center min-h-[265px] relative p-12 w-full">
 					<img src={product.image} alt="" className="max-w-full h-auto" />
 				</div>
@@ -17,7 +17,7 @@ const Product = ({ product }) => {
 									{product.name}
 								</h6>
 							</a>
-							<span className="text-sm text-yellow-500">
+							{/* <span className="text-sm text-yellow-500">
 								{Array.from(
 									{ length: Math.floor(product.rating) },
 									(_, index) => (
@@ -31,7 +31,7 @@ const Product = ({ product }) => {
 								{product.rating % 1 !== 0 && (
 									<FontAwesomeIcon icon={faStarHalfAlt} className="mr-1" />
 								)}
-							</span>
+							</span> */}
 						</div>
 						<div>
 							<p className="text-3xl font-bold">{product.price}€</p>
