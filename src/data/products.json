@@ -1,0 +1,57 @@
+[
+    {
+      "image": "https://www.ski-experience.org/WinterShop/img/p/295-1425-home.jpg",
+      "name": "Norrona Lofoten Gore Tex Jacket",
+      "rating": 4.5,
+      "price": 359.40
+    },
+    {
+      "image": "https://www.ski-experience.org/WinterShop/img/p/309-1169-home.jpg",
+      "name": "Lofoten Gore Tex Pants",
+      "rating": 3.5,
+      "price": 299.40
+    },
+    {
+      "image": "https://www.ski-experience.org/WinterShop/img/p/488-1366-home.jpg",
+      "name": "gore tex thermo200 long gloves",
+      "rating": 4,
+      "price": 167.30
+    },
+    {
+      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_4.png",
+      "name": "Superhero Action Figure",
+      "rating": 4.2,
+      "price": 499
+    },
+    {
+      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_5.png",
+      "name": "Building Blocks",
+      "rating": 4.8,
+      "price": 149
+    },
+    {
+      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_6.png",
+      "name": "Plush Bear",
+      "rating": 4.6,
+      "price": 249
+    },
+    {
+      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_7.png",
+      "name": "Dollhouse",
+      "rating": 4.4,
+      "price": 899
+    },
+    {
+      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_8.png",
+      "name": "Remote Control Helicopter",
+      "rating": 4.1,
+      "price": 599
+    },
+    {
+      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_3.png",
+      "name": "Art Set",
+      "rating": 4.7,
+      "price": 349
+    }
+  ]
+  
