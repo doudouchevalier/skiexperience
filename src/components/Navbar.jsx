@@ -5,8 +5,8 @@ import PropTypes from "prop-types";
 import logoSki from "../assets/logoski.png";
 
 const routes = [
-	{ name: "Homme", href: "#", isActive: true },
-	{ name: "Femme", href: "#", isActive: false },
+	{ name: "Homme", href: "/items?gender=man", isActive: true },
+	{ name: "Femme", href: "/items?gender=woman", isActive: false },
 	{ name: "Equipement", href: "#", isActive: false },
 	{ name: "Marques", href: "#", isActive: false },
 ];

@@ -1,57 +1,69 @@
 [
     {
-      "image": "https://www.ski-experience.org/WinterShop/img/p/295-1425-home.jpg",
+      "image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,bo_180px_solid_rgb:f5f5f5,b_rgb:F5F5F5,w_640,h_640/Auto%2F1838-24-2011-packshot-f.jpg",
       "name": "Norrona GoreTex Jacket",
       "rating": 4.5,
-      "price": 359.40
+      "price": 359.40,
+      "gender": "woman",
+      "type": "jacket"
     },
     {
-      "image": "https://www.ski-experience.org/WinterShop/img/p/309-1169-home.jpg",
+      "image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:fcfcfc,w_1324/Auto%2F1027-20-7718-model-f-1x2.jpg",
       "name": "Lofoten Gore Tex Pants",
       "rating": 3.5,
-      "price": 299.40
+      "price": 299.40,
+      "gender" : "man",
+      "type": "pants"
     },
     {
-      "image": "https://www.ski-experience.org/WinterShop/img/p/488-1366-home.jpg",
+      "image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_1000,h_1000/Auto%2F1123-25-5501-model-f-4x5.jpg",
       "name": "gore tex thermo200 long gloves",
       "rating": 4,
-      "price": 167.30
+      "price": 167.30,
+      "gender": "man",
+      "type": "gloves"
     },
     {
-      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_4.png",
-      "name": "Superhero Action Figure",
+      "image": "https://www.tradeinn.com/f/14164/141647314/rehall-veste-botev-r.webp",
+      "name": "Rehall Botev-R Jacket",
       "rating": 4.2,
-      "price": 499
+      "price": 256.86,
+      "type": "jacket"
     },
     {
-      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_5.png",
-      "name": "Building Blocks",
+      "image": "https://rehall.com/cdn/shop/files/8041d41f-5108-4d3f-b355-cc75338dda5b.jpg?v=1729559725&width=1920",
+      "name": "Rehall ELIAS-R Sweater",
       "rating": 4.8,
-      "price": 149
+      "price": 70,
+      "type": "sweater"
     },
     {
-      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_6.png",
-      "name": "Plush Bear",
+      "image": "https://www.tradeinn.com/f/14164/141647398/rehall-veste-truck-r.webpu",
+      "name": "Rehall Veste Truck-r",
       "rating": 4.6,
-      "price": 249
+      "price": 150.99,
+      "type": "jacket"
     },
     {
-      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_7.png",
-      "name": "Dollhouse",
+      "image": "https://www.tradeinn.com/f/14164/141647392/rehall-pantalon-toluca-r-dxr.webp",
+      "name": "Rehall Pantalon Toluca-r dxr",
       "rating": 4.4,
-      "price": 899
+      "price": 232.49,
+      "type": "pants"
     },
     {
-      "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_8.png",
+      "image": "https://www.tradeinn.com/f/14059/140593832/rehall-chemise-a-manches-longues-ziggy-r.webp",
       "name": "Remote Control Helicopter",
       "rating": 4.1,
-      "price": 599
+      "price": 599,
+      "type": "jacket"
     },
     {
       "image": "https://cdn.easyfrontend.com/pictures/ecommerce/grid_9_3.png",
       "name": "Art Set",
       "rating": 4.7,
-      "price": 349
+      "price": 349,
+      "type": "jacket"
     }
   ]
   

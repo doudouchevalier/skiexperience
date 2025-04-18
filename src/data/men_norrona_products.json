@@ -1,0 +1,562 @@
+[
+    {
+        "name": "Gore-Tex Jacket jacket",
+        "price": "549",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1834-24-1003-model-f-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1834-24-1003-model-f-4x5.jpg",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#E56500",
+        "brand": "Norrona"
+    },
+    {
+        "name": "dri1 Jacket jacket",
+        "price": "349",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1885-25-1002-model-f-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1885-25-1002-model-f-4x5.jpg",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#B2501D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Pro rescue Jacket jacket",
+        "price": "949",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1603-23-6000-model-f-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1603-23-6000-model-f-4x5.jpg",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#005780",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Pro light Jacket jacket",
+        "price": "699",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#D31E29",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Jacket jacket",
+        "price": "549",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#E56500",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Pro Jacket jacket",
+        "price": "699",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Insulated Jacket jacket",
+        "price": "599",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#E56500",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Parka jacket",
+        "price": "1199",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex down850 Parka jacket",
+        "price": "999",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex thermo160 Parka jacket",
+        "price": "799",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Insulated Parka jacket",
+        "price": "749",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "down750 Zip Hood jacket",
+        "price": "369",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "down750 Vest jacket",
+        "price": "249",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "thermo40 Zip Hood jacket",
+        "price": "249",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#E56500",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Octa Jacket jacket",
+        "price": "219",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#00579C",
+        "brand": "Norrona"
+    },
+    {
+        "name": "down800 Hood jacket",
+        "price": "549",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "thermo100 rescue Hood jacket",
+        "price": "469",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#0079A8",
+        "brand": "Norrona"
+    },
+    {
+        "name": "alpha120 Zip Hood jacket",
+        "price": "229",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#1E3E6C",
+        "brand": "Norrona"
+    },
+    {
+        "name": "warm2 Octa Hood jacket",
+        "price": "219",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#2A3244",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Power Grid Zip Hood jacket",
+        "price": "199",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#00579C",
+        "brand": "Norrona"
+    },
+    {
+        "name": "warm1 Jacket jacket",
+        "price": "189",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "warm2 stretch Hood jacket",
+        "price": "169",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#00579C",
+        "brand": "Norrona"
+    },
+    {
+        "name": "warm2 Octa Vest jacket",
+        "price": "159",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#E56500",
+        "brand": "Norrona"
+    },
+    {
+        "name": "aero60 Hood jacket",
+        "price": "219",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#00579C",
+        "brand": "Norrona"
+    },
+    {
+        "name": "aero90 Vest jacket",
+        "price": "189",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#F2F0EB",
+        "brand": "Norrona"
+    },
+    {
+        "name": "cotton Jacket jacket",
+        "price": "299",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#B4AC87",
+        "brand": "Norrona"
+    },
+    {
+        "name": "cotton Anorak jacket",
+        "price": "249",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#927240",
+        "brand": "Norrona"
+    },
+    {
+        "name": "cotton Shirt jacket",
+        "price": "159",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#927240",
+        "brand": "Norrona"
+    },
+    {
+        "name": "wool Smock jacket",
+        "price": "449",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#535040",
+        "brand": "Norrona"
+    },
+    {
+        "name": "sweat Hood jacket",
+        "price": "159",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#A29E9D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "sweat Crew Neck jacket",
+        "price": "149",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "jacket",
+        "gender": "man",
+        "color": "#A29E9D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Pants pants",
+        "price": "499",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1835-24-7718-model-fl-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1835-24-7718-model-fl-4x5.jpg",
+        "category": "pants",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "dri1 Pants pants",
+        "price": "299",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1886-25-7718-model-fl-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1886-25-7718-model-fl-4x5.jpg",
+        "category": "pants",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Pro rescue Pants pants",
+        "price": "949",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1604-23-7718-model-fl-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1604-23-7718-model-fl-4x5.jpg",
+        "category": "pants",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Pro Pants pants",
+        "price": "599",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "dri1 Pants pants",
+        "price": "269",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Pro Bib  Ousland  edition pants",
+        "price": "999",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#2A3244",
+        "brand": "Norrona"
+    },
+    {
+        "name": "Gore-Tex Insulated Pants pants",
+        "price": "549",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#B2501D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "thermo40 shorts pants",
+        "price": "189",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#00579C",
+        "brand": "Norrona"
+    },
+    {
+        "name": "down850 Knickers pants",
+        "price": "269",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#2A3244",
+        "brand": "Norrona"
+    },
+    {
+        "name": "flex1 heavy duty Pants pants",
+        "price": "249",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "N/A",
+        "brand": "Norrona"
+    },
+    {
+        "name": "flex1 Pants pants",
+        "price": "229",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#436573",
+        "brand": "Norrona"
+    },
+    {
+        "name": "flex1 short Pants pants",
+        "price": "229",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "flex1 Light Pants pants",
+        "price": "179",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#1E3E6C",
+        "brand": "Norrona"
+    },
+    {
+        "name": "flex1 rescue pants",
+        "price": "329",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "flex1 Zip-off Pants pants",
+        "price": "269",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#292A2D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "cotton heavy duty Bibs pants",
+        "price": "329",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#927240",
+        "brand": "Norrona"
+    },
+    {
+        "name": "light cotton Pants pants",
+        "price": "179",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#6D7051",
+        "brand": "Norrona"
+    },
+    {
+        "name": "wool Pants pants",
+        "price": "349",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#535040",
+        "brand": "Norrona"
+    },
+    {
+        "name": "hybrid Pants pants",
+        "price": "229",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "pants",
+        "gender": "man",
+        "color": "#717340",
+        "brand": "Norrona"
+    },
+    {
+        "name": "flannel Shirt shirt",
+        "price": "199",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F2640-24-3516-model-f-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F2640-24-3516-model-f-4x5.jpg",
+        "category": "shirt",
+        "gender": "man",
+        "color": "#B4AC87",
+        "brand": "Norrona"
+    },
+    {
+        "name": "light Shirt shirt",
+        "price": "149",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F2626-24-3301-model-f-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F2626-24-3301-model-f-4x5.jpg",
+        "category": "shirt",
+        "gender": "man",
+        "color": "#535040",
+        "brand": "Norrona"
+    },
+    {
+        "name": "wool plain Shirt shirt",
+        "price": "249",
+        "front_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1225-24-2313-model-f-4x5.jpg",
+        "back_image": "https://res.cloudinary.com/norrona/image/upload/c_pad,f_auto,d_imgmissing.jpg,fl_progressive.lossy,q_auto,b_rgb:F5F5F5,w_180,h_225/Auto%2F1225-24-2313-model-f-4x5.jpg",
+        "category": "shirt",
+        "gender": "man",
+        "color": "#A29E9D",
+        "brand": "Norrona"
+    },
+    {
+        "name": "wool Shirt shirt",
+        "price": "249",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "shirt",
+        "gender": "man",
+        "color": "#3C3535",
+        "brand": "Norrona"
+    },
+    {
+        "name": "wool Shirt shirt",
+        "price": "249",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "shirt",
+        "gender": "man",
+        "color": "#545A3E",
+        "brand": "Norrona"
+    },
+    {
+        "name": "flex1 Shirt shirt",
+        "price": "179",
+        "front_image": "//:0",
+        "back_image": "//:0",
+        "category": "shirt",
+        "gender": "man",
+        "color": "#2A3244",
+        "brand": "Norrona"
+    }
+]

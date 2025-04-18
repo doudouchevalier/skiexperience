@@ -4,6 +4,7 @@ import ErrorPage from "../pages/NotFound";
 import Home from "../pages/home";
 import Cart from "../pages/cart";
 import Items from "../pages/items";
+import Product from '../pages/Product';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,11 @@ const router = createBrowserRouter([
       {
         path: "/items",
         element: <Items />
-      }
+      },
+      {
+        path: "/product",
+        element: <Product />
+      },
     ]
   }
 ]);

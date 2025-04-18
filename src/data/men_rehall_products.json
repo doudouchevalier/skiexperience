@@ -1,0 +1,432 @@
+[
+    {
+        "name": "ARVON-R jacket",
+        "price": "279,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/3e68a126-30a3-4390-87a2-80aee3de9bcb_720x1008.jpg?v=1729556419",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/aafb2956-ce09-4ecb-810d-311a3002b649_720x1008.jpg?v=1729556421",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Navy",
+        "brand": "Rehall"
+    },
+    {
+        "name": "ARVON-R jacket",
+        "price": "279,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/78171d4b-a1c8-4a5a-ad6f-c5e7892d6fe9_720x1008.jpg?v=1729556394",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/b3522213-0a9a-4c3c-bc0e-fd53f745534c_720x1008.jpg?v=1729556398",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Light Grey",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BOTEV-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/bd640d65-948a-4907-8f03-324953a7087b_720x1008.jpg?v=1733798449",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/af9c8e0a-f329-473e-b40a-035d264fd8d5_720x1008.jpg?v=1733798453",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Plum Perfect",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BOTEV-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/feaf1ef6-452a-4d54-979d-2ccd8d5e9adc_720x1008.jpg?v=1729557085",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/d5ff4f28-e426-4a10-bea3-c01634d1ab8c_720x1008.jpg?v=1729557104",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Bungee Cord",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BOTEV-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/423dbaa2-62d4-4814-b948-1ec127f81914_720x1008.jpg?v=1733798412",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/856a9082-7e89-429f-95be-8b4ae77e1be9_720x1008.jpg?v=1733798415",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Black",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BOTEV-R jacket",
+        "price": "259,00",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/71f652a2-38e1-4374-b843-9def0bce6fd5_720x1008.jpg?v=1741400190",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/8c33af77-5fa1-415a-b188-6116f6b70aae_7a132d7e-59f8-4d48-a737-336d2ed8e669_720x1008.jpg?v=1741400192",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Stone",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BOTEV-R jacket",
+        "price": "259,00",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/0941e628-c03d-468f-9b56-fa7930f5e475_720x1008.jpg?v=1741400217",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/151ff53a-15a0-459d-890e-a5bede9feaa3_86a56cdc-56f9-4f05-935f-41c986044ac3_720x1008.jpg?v=1741400219",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Tobacco",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BOTEV-R jacket",
+        "price": "194,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/e83e7349-c943-40f7-8f08-64f2e19dfc02_720x1008.jpg?v=1732847448",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/151ff53a-15a0-459d-890e-a5bede9feaa3_720x1008.jpg?v=1732847451",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Tobacco",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BOTEV-R jacket",
+        "price": "194,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/fcfef8a3-d761-4500-b4ea-89b601c11638_720x1008.jpg?v=1732847484",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/8c33af77-5fa1-415a-b188-6116f6b70aae_720x1008.jpg?v=1732847486",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Stone",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BRUCE-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/7bfbb0cd-b2ea-4ed4-8786-012a63561977_720x1008.jpg?v=1729557246",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/276cb747-4abc-480f-bca8-ff9c6c794c85_720x1008.jpg?v=1729557254",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Graphite",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BRUCE-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/47cb0694-4ec4-4998-8d59-f8c63d0ddded_720x1008.jpg?v=1729557266",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/4f7e60af-6fd1-4a70-8aba-94434f1c1f79_720x1008.jpg?v=1729557271",
+        "category": "jacket",
+        "gender": "man",
+        "color": "White Mountains",
+        "brand": "Rehall"
+    },
+    {
+        "name": "BRUCE-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/3e603777-8f34-4561-a433-a99e27344a42_720x1008.jpg?v=1734487229",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/b07fbafe-9823-42b8-894f-e4ba62b0b63e_720x1008.jpg?v=1734487234",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Black",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CANLAON-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/66f799c5-f3fb-4524-ae43-cbbcf4219849_720x1008.jpg?v=1732847244",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/977012a4-e72a-4dd1-b000-12f0f3d50924_720x1008.jpg?v=1732847247",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Moss",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CANLAON-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/86a26194-b884-4a05-a3a1-70feccdf978e_720x1008.jpg?v=1732847292",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/4c957699-aa10-4c45-a560-b49ea797bc71_720x1008.jpg?v=1732847296",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Tobacco",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CANLAON-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/93ec404a-e240-45e9-b983-7fd5e58a1198_720x1008.jpg?v=1733798211",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/d9e1c03f-5514-4eef-91a1-759f1bcd0506_720x1008.jpg?v=1733798219",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Reflex Blue",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CANLAON-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/b01c782a-be79-4469-993e-336b9a03f945_720x1008.jpg?v=1734487322",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/baf13903-a857-4e53-b1d7-7837ba960f05_720x1008.jpg?v=1734487325",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Olive",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CANLAON-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/c364c4e9-733e-4f32-87b8-0aeee03e0443_720x1008.jpg?v=1733798147",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/4c759f4d-39ca-479f-b59a-bb902cfecd7f_720x1008.jpg?v=1733798152",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Gravel Stone",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CANLAON-R jacket",
+        "price": "239,00",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/6843dcdc-3d55-418f-8661-dca212604ceb_720x1008.jpg?v=1741400086",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/977012a4-e72a-4dd1-b000-12f0f3d50924_ae51dfaf-d5ce-4fa1-9230-a3ae0812450b_720x1008.jpg?v=1741400088",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Moss",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CANLAON-R jacket",
+        "price": "239,00",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/603db151-8aab-4d74-8de2-b094d7245e4e_720x1008.jpg?v=1741400115",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/4c957699-aa10-4c45-a560-b49ea797bc71_48144c1d-7bf2-4aeb-8733-5d994f5f44fe_720x1008.jpg?v=1741400117",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Tobacco",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CASTLE-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/133188d4-1c62-4023-8f56-7a3b36ee3241_720x1008.jpg?v=1733798526",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/d0694717-be17-4758-9c70-38b4ed0a7bd0_720x1008.jpg?v=1733798529",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Graphite",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CLIVE-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/61a137c2-f4ec-4475-9546-490906c1a41e_720x1008.jpg?v=1734487822",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/61277b79-274c-4087-aee3-ee24174a3e47_720x1008.jpg?v=1734487824",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Tobacco",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CLIVE-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/36bcc7ff-0d9a-4591-8401-49840351af2a_720x1008.jpg?v=1733793037",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/87c69922-f906-4221-a069-c70d9f566560_720x1008.jpg?v=1733793040",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Reflex Blue",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CLIVE-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/e0948eda-e0d1-4845-bb58-111640bb7531_720x1008.jpg?v=1733793062",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/1a4a1f06-039a-4eac-bd50-dd771e9e26dd_720x1008.jpg?v=1733793064",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Petrol",
+        "brand": "Rehall"
+    },
+    {
+        "name": "CLIVE-R jacket",
+        "price": "179,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/35372cde-8837-4743-b532-489f83414293_720x1008.jpg?v=1734487788",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/ce3b7dfd-8ead-462b-bbac-f72fd02ca608_720x1008.jpg?v=1734487791",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Graphite",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DEAN-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/07e96b35-1b63-46a2-aeff-f79862d717d1_720x1008.jpg?v=1734488846",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/7d74e265-fbff-48a5-9c3d-3349d2c90481_720x1008.jpg?v=1734488849",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Bronze",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DEAN-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/4d7220e4-d582-4405-a13e-17ef810fa7be_720x1008.jpg?v=1733793509",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/c68eadd6-f5f4-433b-9a09-271e37aa01b4_720x1008.jpg?v=1733793511",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Graphite",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DEAN-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/38b25817-7a88-448a-a4ab-d5ba66984f83_720x1008.jpg?v=1733793479",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/2036c9b2-2dfd-4048-9ae7-2fe8d8c4cbca_720x1008.jpg?v=1733793483",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Black",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DEAN-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/b95d49b2-8ca8-41b9-b55c-2fa0f9777357_720x1008.jpg?v=1733793539",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/a398f32e-81b0-4d64-b0f5-f1aa72cc11b5_720x1008.jpg?v=1733793541",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Navy",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DEAN-R jacket",
+        "price": "189,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/cf68f013-0491-4fe0-8c40-8e9ed29b18cc_720x1008.jpg?v=1734488816",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/864515e1-4cad-422e-a7cf-573bb9e22505_720x1008.jpg?v=1734488818",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Moss",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DEEZY-R jacket",
+        "price": "149,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/2b41b8ba-bc01-4400-a99e-ed545c68a135_720x1008.jpg?v=1733798773",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/78eb8fb2-5ce3-4239-96a3-5610ace0e0fa_720x1008.jpg?v=1733798775",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Graphite",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DEEZY-R jacket",
+        "price": "149,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/a6c4487a-3530-4c8b-a370-3ad9bff3bf10_720x1008.jpg?v=1733798750",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/b301ffc3-c742-4109-beab-3b859d3796fe_720x1008.jpg?v=1733798752",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Black",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DEEZY-R jacket",
+        "price": "149,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/82698885-e57f-405e-99dc-05d67c2c2c90_720x1008.jpg?v=1734487987",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/06304995-ad08-4cc5-b472-df1a0ecc5aa4_720x1008.jpg?v=1734487989",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Olive",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DENALI-R jacket",
+        "price": "289,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/60f24c72-66fa-417c-8b2c-5621d07a25b9_720x1008.jpg?v=1729558831",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/18d089e4-a4c3-44fa-8fe5-489c58d255f0_720x1008.jpg?v=1729558838",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Cathay Spice",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DENALI-R jacket",
+        "price": "289,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/01fd2778-124a-4e28-b332-9ef90b9d7ff2_720x1008.jpg?v=1729558850",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/63098dcf-bbdf-4cc2-ba98-b58097b0a322_720x1008.jpg?v=1729558859",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Flame Red",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DENALI-R jacket",
+        "price": "289,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/e6034e24-7d7b-4eec-9388-b83b7cc784c3_720x1008.jpg?v=1729558866",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/fcda0f8b-5fa1-48e5-a29c-042e274ae331_720x1008.jpg?v=1729558876",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Light Grey",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DENALI-R jacket",
+        "price": "289,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/5967f99f-2c52-49c5-a115-8b0edbb81c9a_720x1008.jpg?v=1729558885",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/e8aec96e-4ee2-4979-9312-ea3ea8bcc52a_720x1008.jpg?v=1729558895",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Reflex Blue",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DMITRI-R jacket",
+        "price": "99,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/e26a5efc-fa94-427a-b638-de2e84eaf963_720x1008.jpg?v=1729555896",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/eef1a336-8557-4761-a5af-d14cfc497372_720x1008.jpg?v=1729555898",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Purple",
+        "brand": "Rehall"
+    },
+    {
+        "name": "DMITRI-R jacket",
+        "price": "99,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/310ddc3d-d3a9-46ec-9aec-f5711c8ebfe6_720x1008.jpg?v=1742347324",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/61d3cd4e-2fc9-4813-b8bc-82a1ed8f3027_720x1008.jpg?v=1742347326",
+        "category": "jacket",
+        "gender": "man",
+        "color": "Black",
+        "brand": "Rehall"
+    },
+    {
+        "name": "SIDLEY-R ski suit",
+        "price": "349,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/11fbe275-3e15-4edb-ad34-34dd55a7ed35_720x1008.jpg?v=1734489991",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/0c8186cf-ddbb-4e3f-a9eb-e8b0c8b0ddb8_720x1008.jpg?v=1734489993",
+        "category": "ski suit",
+        "gender": "man",
+        "color": "Black",
+        "brand": "Rehall"
+    },
+    {
+        "name": "SIDLEY-R ski suit",
+        "price": "349,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/9f2958fb-225a-4912-b8e8-0b12be108ec2_720x1008.jpg?v=1733798965",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/82e7769e-2c5c-4468-91ac-6514096001b2_720x1008.jpg?v=1733798969",
+        "category": "ski suit",
+        "gender": "man",
+        "color": "Dazling Metallic Silver",
+        "brand": "Rehall"
+    },
+    {
+        "name": "SIDLEY-R ski suit",
+        "price": "349,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/580afc9d-4f1b-4fa1-8e3a-02539b9b4508_720x1008.jpg?v=1734490027",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/c62218ce-6d15-4e90-85ef-75e29b96b317_720x1008.jpg?v=1734490029",
+        "category": "ski suit",
+        "gender": "man",
+        "color": "Corsair",
+        "brand": "Rehall"
+    },
+    {
+        "name": "SIDLEY-R ski suit",
+        "price": "349,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/03ed7248-de3d-4c48-a697-72b7c1f1e0bb_720x1008.jpg?v=1734490066",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/ac60233f-435e-4431-a185-76a9ace1f77b_720x1008.jpg?v=1734490069",
+        "category": "ski suit",
+        "gender": "man",
+        "color": "Military Olive",
+        "brand": "Rehall"
+    },
+    {
+        "name": "SIDLEY-R ski suit",
+        "price": "349,99",
+        "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/c8eb6ef0-cda8-4fd6-bfec-1e224f1a3d24_720x1008.jpg?v=1734490108",
+        "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/c9f7f939-87f9-4c18-9810-2f40357101cb_720x1008.jpg?v=1734490110",
+        "category": "ski suit",
+        "gender": "man",
+        "color": "Cathay Spice",
+        "brand": "Rehall"
+    }
+]
