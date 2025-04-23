@@ -14,15 +14,22 @@ const ColorVariant = ({ selectedColor, onChange, variants }) => {
 				{variants.map((item, i) => (
 					<Fragment key={i}>
 						<button
-							className={`py-2 px-4 rounded-full border text-sm cursor-pointer transition-colors ${
+							type="button"
+							onClick={() => onChange(item.id)}
+							className={`w-24 h-24 rounded border overflow-hidden p-1 transition-colors ${
 								selectedColor === item.value
-									? "bg-blue-600 text-white border-blue-600"
-									: "bg-gray-100 text-blue-600 border-blue-50 hover:bg-blue-200"
+									? "border-blue-600 ring-2 ring-blue-300"
+									: "border-gray-300 hover:border-blue-400"
 							}`}
-							onClick={() => onChange(item.id)} 
 						>
-							{item.label}
+							{/* {item.label} */}
+							<img
+								src={item.front_image}
+								alt={item.label}
+								className="object-cover w-full h-full"
+							/>
 						</button>
+
 					</Fragment>
 				))}
 			</div>

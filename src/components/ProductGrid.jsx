@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import products from '../data/products.json';
-import products from '../data/all_products.json'
+import products from '../data/all_products_deduplicated.json'
 import ProductCard from './ProductCard.jsx';
 import Filter from './Filter.jsx'; // <-- ajout du composant
 import { useSearchParams } from 'react-router-dom';
@@ -41,7 +41,7 @@ const ProductGrid = () => {
 	});
 
 	return (
-		<section className="py-14 md:py-24 bg-white text-zinc-900 relative overflow-hidden z-10">
+		<section className="py-14 md:py-24 bg-gray-100 text-zinc-900 relative overflow-hidden z-10">
 			<div className="container relative px-4 mx-auto">
 				{/* <h2 className="text-3xl md:text-5xl font-bold leading-tight text-center">
 					Products

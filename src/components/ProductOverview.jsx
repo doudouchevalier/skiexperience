@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import productsData from "../data/all_products.json";
+import productsData from "../data/all_products_deduplicated.json";
 import ProductPreviews from "./Epoverview1/ProductPreviews";
 import ColorVariant from "./Epoverview1/ColorVariant";
 // import SizeVariant from "./Epoverview1/SizeVariant"; // si tu veux le remettre plus tard
@@ -19,6 +19,7 @@ const ProductOverview = ({ productId }) => {
 		value: p.color,
 		title: p.color,
 		id: p.id,  // Ajout de l'id du produit associé à la couleur
+		front_image: p.front_image, 
 	}));
 
 	const [formData, setFormData] = useState({

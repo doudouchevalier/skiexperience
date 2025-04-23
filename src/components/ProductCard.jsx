@@ -1,12 +1,17 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 const ProductCard = ({ product }) => {
 	const [isHovered, setIsHovered] = useState(false);
 
 	return (
-		<div className="h-full">
+		<Link
+	to={`/product/${product.id}`}
+	className="h-full"
+>
 			<div className="bg-white shadow p-4 pb-0 h-full flex flex-col justify-between">
 				<div
 					className="rounded flex justify-center items-center aspect-[3/4] w-full relative overflow-hidden"
@@ -22,7 +27,7 @@ const ProductCard = ({ product }) => {
 				<div className="py-4 px-1 flex-grow">
 					<div className="flex flex-col items-start space-y-1">
 						<div>
-							<a href="/">
+							<a href={`product/${product.id}`}>
 								<p className="hover:text-blue-600 text-[clamp(0.55rem,1vw,0.75rem)] font-medium leading-snug mb-1">
 									<b>{product.brand}</b> {product.name}
 								</p>
@@ -35,7 +40,7 @@ const ProductCard = ({ product }) => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</Link>
 
 	);
 };
