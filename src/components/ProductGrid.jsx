@@ -1,13 +1,34 @@
 import React, { useState } from 'react';
 // import products from '../data/products.json';
 import products from '../data/all_products.json'
-import Product from './product.jsx';
+import ProductCard from './ProductCard.jsx';
 import Filter from './Filter.jsx'; // <-- ajout du composant
+import { useSearchParams } from 'react-router-dom';
 
-const EPGrid10 = () => {
-	const [genderFilter, setGenderFilter] = useState('');
-	const [categoryFilter, setCategoryFilter] = useState('');
-	const [brandFilter, setBrandFilter] = useState('');
+const ProductGrid = () => {
+	const [searchParams, setSearchParams] = useSearchParams();
+
+	const genderFilter = searchParams.get('gender') || '';
+	const categoryFilter = searchParams.get('category') || '';
+	const brandFilter = searchParams.get('brand') || '';
+
+
+	const handleGenderChange = (value) => {
+		if (value) searchParams.set('gender', value);
+		else searchParams.delete('gender');
+		setSearchParams(searchParams);
+	};
+
+	const handleCategoryChange = (value) => {
+		if (value) searchParams.set('category', value);
+		else searchParams.delete('category');
+		setSearchParams(searchParams);
+	};
+	const handleBrandChange = (value) => {
+		if (value) searchParams.set('brand', value);
+		else searchParams.delete('brand');
+		setSearchParams(searchParams);
+	};
 
 	const uniqueCategories = [...new Set(products.map((p) => p.category))];
 	const uniqueBrands = [...new Set(products.map((p) => p.brand))];
@@ -22,27 +43,29 @@ const EPGrid10 = () => {
 	return (
 		<section className="py-14 md:py-24 bg-white text-zinc-900 relative overflow-hidden z-10">
 			<div className="container relative px-4 mx-auto">
-				<h2 className="text-3xl md:text-5xl font-bold leading-tight text-center">
+				{/* <h2 className="text-3xl md:text-5xl font-bold leading-tight text-center">
 					Products
-				</h2>
+				</h2> */}
 
 				{/* Intégration du filtre */}
 				<Filter
 					gender={genderFilter}
 					category={categoryFilter}
 					brand={brandFilter}
-					onGenderChange={setGenderFilter}
-					onCategoryChange={setCategoryFilter}
-					onBrandChange={setBrandFilter}
+					onGenderChange={handleGenderChange}
+					onCategoryChange={handleCategoryChange}
+					onBrandChange={handleBrandChange}
 					categories={uniqueCategories}
 					brands={uniqueBrands}
 				/>
+			</div>
+			<div className="relative w-full px-4">
 
 				{/* Grille */}
-				<div className="grid grid-cols-12 gap-6">
+				<div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(180px,1fr))]">
 					{filteredProducts.length > 0 ? (
 						filteredProducts.map((product, index) => (
-							<Product key={index} product={product} />
+							<ProductCard key={index} product={product} />
 						))
 					) : (
 						<p className="col-span-12 text-center text-gray-500">
@@ -55,4 +78,4 @@ const EPGrid10 = () => {
 	);
 };
 
-export default EPGrid10;
+export default ProductGrid;

@@ -21,13 +21,13 @@ const router = createBrowserRouter([
         element: <Cart />
       },
       {
-        path: "/items",
+        path: "/products",
         element: <Items />
       },
       {
-        path: "/product",
+        path: "/product/:id", // ici on met :id pour matcher avec useParams().id
         element: <Product />
-      },
+      }
     ]
   }
 ]);

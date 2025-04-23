@@ -1,9 +1,14 @@
-import Epoverview1 from '../components/Epoverview1'; // ajuste le chemin si besoin
+// src/pages/Product.jsx
+import { useParams } from "react-router-dom";
+import ProductOverview from "../components/ProductOverview";
 
 function Product() {
+  const { id } = useParams(); // récupère l'id de l'URL
+  const productId = parseInt(id); // convertit en nombre si nécessaire
+
   return (
     <div>
-      <Epoverview1 />
+      <ProductOverview productId={productId} />
     </div>
   );
 }

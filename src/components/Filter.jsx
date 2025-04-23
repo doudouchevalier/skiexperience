@@ -8,7 +8,7 @@ const Filter = ({ gender, category, brand, onGenderChange, onCategoryChange, onB
 			<select
 				value={gender}
 				onChange={(e) => onGenderChange(e.target.value)}
-				className="border px-4 py-2 rounded"
+				className="border px-4 py-2 rounded w-48 sm:w-52 md:w-56 lg:w-60 h-10"
 			>
 				<option value="">All Genders</option>
 				<option value="man">Man</option>
@@ -19,7 +19,7 @@ const Filter = ({ gender, category, brand, onGenderChange, onCategoryChange, onB
 			<select
 				value={category}
 				onChange={(e) => onCategoryChange(e.target.value)}
-				className="border px-4 py-2 rounded"
+				className="border px-4 py-2 rounded w-48 sm:w-52 md:w-56 lg:w-60 h-10"
 			>
 				<option value="">All Categories</option>
 				{categories.map((c) => (
@@ -33,7 +33,7 @@ const Filter = ({ gender, category, brand, onGenderChange, onCategoryChange, onB
 			<select
 				value={brand}
 				onChange={(e) => onBrandChange(e.target.value)}
-				className="border px-4 py-2 rounded"
+				className="border px-4 py-2 rounded w-48 sm:w-52 md:w-56 lg:w-60 h-10"
 			>
 				<option value="">All Brands</option>
 				{brands.map((b) => (
