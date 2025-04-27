@@ -1,39 +1,33 @@
-import React from "react";
+import React, {useState} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import PropTypes from "prop-types";
 import logoSki from "../assets/logoski.png";
 
+
 // Routes avec sous-menus
 const routes = [
-<<<<<<< HEAD
-	{ name: "Homme", href: "/products?gender=man", isActive: true },
-	{ name: "Femme", href: "/products?gender=woman", isActive: false },
-	{ name: "Equipement", href: "#", isActive: false },
-	{ name: "Marques", href: "#", isActive: false },
-=======
   {
     name: "Homme",
-    href: "/items?gender=man",
+    href: "/products?gender=man",
     isActive: true,
     submenu: [
-      { label: "Vestes", href: "/items?gender=man&type=vestes" },
-      { label: "Pantalons", href: "/items?gender=man&type=pantalons" },
-      { label: "Accessoires", href: "/items?gender=man&type=accessoires" },
+      { label: "Vestes", href: "/products?gender=man&type=vestes" },
+      { label: "Pantalons", href: "/products?gender=man&type=pantalons" },
+      { label: "Accessoires", href: "/products?gender=man&type=accessoires" },
     ],
   },
   {
     name: "Femme",
-    href: "/items?gender=woman",
+    href: "/products?gender=woman",
     isActive: false,
     submenu: [
-      { label: "Vestes", href: "/items?gender=woman&type=vestes" },
-      { label: "Leggings", href: "/items?gender=woman&type=leggings" },
+      { label: "Vestes", href: "/products?gender=woman&type=vestes" },
+      { label: "Leggings", href: "/products?gender=woman&type=leggings" },
     ],
   },
   { name: "Equipement", href: "#", isActive: false },
   { name: "Marques", href: "#", isActive: false },
->>>>>>> 1cb995d03b99c8a51c3eeeb22c103c9cb649221d
 ];
 
 // Menu principal
@@ -77,23 +71,35 @@ NavMenu.propTypes = {
 };
 
 // Menu icônes (search + panier)
-const NavMenu2 = () => (
-  <ul className="flex items-center justify-center mb-2 lg:mb-0">
-    <li>
-      <button className="bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2">
-        <FontAwesomeIcon icon={faShoppingCart} />
-      </button>
-      <button className="bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2 ml-2">
-        <FontAwesomeIcon icon={faSearch} />
-      </button>
-    </li>
-  </ul>
-);
+const NavMenu2 = () => {
+  const [showSearch, setShowSearch] = useState(false);
+
+  return (
+    <ul className="flex items-center justify-center mb-2 lg:mb-0">
+      <li className="flex items-center space-x-2">
+        <div className={`transition-all duration-300 ease-in-out overflow-hidden ${showSearch ? "w-48 opacity-100" : "w-0 opacity-0"}`}>
+          <input
+            type="text"
+            placeholder="Recherche..."
+            className="px-3 py-2 border rounded-full w-full text-sm focus:outline-none"
+          />
+        </div>
+        <button onClick={() => setShowSearch(!showSearch)} className="bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2 ml-2">
+          <FontAwesomeIcon icon={faSearch} />
+        </button>
+        <button className="bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2">
+          <FontAwesomeIcon icon={faShoppingCart} />
+        </button>
+      
+      </li>
+    </ul>
+  );
+}
 
 // Composant principal
 const Navigation = () => {
   return (
-    <div className="ezy__nav5 light py-6 bg-white text-zinc-900 w-full fixed top-0 left-0 z-50">
+    <div className="ezy__nav5 light py-3 bg-white text-zinc-900 w-full fixed top-0 left-0 z-50">
       <nav className="w-full">
         <div className="flex items-center justify-between px-4">
           <a className="font-black text-3xl" href="/">

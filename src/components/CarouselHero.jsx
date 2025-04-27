@@ -23,7 +23,7 @@ const CarouselHero = () => {
   }, []);
 
   return (
-    <div className="relative h-[50vh] w-full overflow-hidden mt-[96px]">
+    <div className="relative h-[60vh] w-full overflow-hidden shadow-lg -mt-50">
       {slides.map((img, index) => (
         <div
           key={index}
@@ -42,7 +42,7 @@ const CarouselHero = () => {
       {/* Flèche gauche */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 z-20"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 z-20 focus:outline-none"
       >
         <FontAwesomeIcon icon={faChevronLeft} className="text-xl text-gray-700" />
       </button>
