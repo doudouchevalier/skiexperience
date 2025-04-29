@@ -2,10 +2,11 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import ErrorPage from "../pages/NotFound";
 import Home from "../pages/Home";
-import Cart from "../pages/cart";
+import CartPage from "../pages/CartPage";
 import Items from "../pages/items";
 import Product from '../pages/Product';
 import SearchResults from "../pages/SearchResult";
+import Favorites from "../pages/Favorites";
 
 const router = createBrowserRouter([
   {

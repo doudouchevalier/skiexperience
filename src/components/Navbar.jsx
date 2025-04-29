@@ -5,6 +5,7 @@ import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import PropTypes from "prop-types";
 import logoSki from "../assets/logoski.png";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import products from "../data/all_products.json"; // adapte le chemin si besoin
 
 
