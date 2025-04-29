@@ -7,6 +7,7 @@ import { useCart } from "./CartContext.jsx"; // Importation du contexte du panie
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart as regularHeart } from "@fortawesome/free-regular-svg-icons";
 import { faHeart as solidHeart } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const ProductCard = ({ product }) => {
 	const [isHovered, setIsHovered] = useState(false);
@@ -44,19 +45,19 @@ const ProductCard = ({ product }) => {
 					<div className="absolute top-2 right-2 flex space-x-2 z-10">
 						{/* 🖤 Bouton Favori */}
 						<button
-  onClick={handleToggleFavorite}
-  className="bg-gray-100 p-2 rounded-full hover:bg-gray-200"
->
-  <FontAwesomeIcon
-    icon={isFavorited ? solidHeart : regularHeart}
-    className={`h-5 w-5 ${isFavorited ? "text-red-500" : "text-gray-500"}`}
-  />
-</button>
+							onClick={handleToggleFavorite}
+							className="bg-gray-100 p-2 rounded-full hover:bg-gray-200"
+						>
+							<FontAwesomeIcon
+								icon={isFavorited ? solidHeart : regularHeart}
+								className={`h-5 w-5 ${isFavorited ? "text-red-500" : "text-gray-500"}`}
+							/>
+						</button>
 
 						{/* 🛒 Bouton Ajouter au panier */}
 						<button
 							onClick={handleAddToCart}
-							className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600"
+							className="text-white p-2 rounded-full"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -77,24 +78,27 @@ const ProductCard = ({ product }) => {
 				)}
 
 				{/* 🖼 Image produit */}
-				<div className="rounded flex justify-center items-center aspect-[3/4] w-full relative overflow-hidden">
-					<img
-						src={isHovered ? product.back_image : product.front_image}
-						alt={product.name}
-						className="h-full w-auto object-contain transition duration-300 ease-in-out"
-					/>
-				</div>
+				<div className="rounded aspect-[3/4] w-full relative overflow-hidden">
+	<img
+		src={isHovered ? product.back_image : product.front_image}
+		alt={product.name}
+		className="w-full h-full object-contain transition duration-300 ease-in-out"
+	/>
+</div>
+
 
 				{/* 💬 Infos produit */}
-				<div className="py-4 px-1 flex-grow">
-					<div className="flex flex-col items-start space-y-1">
-						<p className="hover:text-blue-600 text-[clamp(0.55rem,1vw,0.75rem)] font-medium leading-snug mb-1">
-							<b>{product.brand}</b> {product.name}
-						</p>
-						<p className="text-xl font-bold text-[clamp(0.45rem,1vw,0.65rem)] whitespace-nowrap">
-							{product.price}€
-						</p>
-					</div>
+				<div className="py-2 px-1 flex-grow">
+				<div className="flex justify-between items-center w-full">
+  <p className="hover:text-blue-600 text-[clamp(0.55rem,1vw,0.75rem)] font-medium leading-snug">
+    <b>{product.brand}</b> {product.name}
+  </p>
+  <p className="hover:text-blue-600 font-semibold text-[clamp(0.55rem,1vw,0.75rem)] whitespace-nowrap">
+    {product.price}€
+  </p>
+</div>
+
+
 				</div>
 			</div>
 		</Link>
