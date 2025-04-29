@@ -5,8 +5,7 @@ import Home from "../pages/Home";
 import Cart from "../pages/cart";
 import Items from "../pages/items";
 import Product from '../pages/Product';
-import Favorites from "../pages/Favorites";
-import CartPage from "../pages/CartPage"
+import SearchResults from "../pages/SearchResult";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +33,11 @@ const router = createBrowserRouter([
         path: "/favorites",
         element: <Favorites />
       },
+      {
+        path: "/search",
+        element: <SearchResults />
+      }
+      
     ]
   }
 ]);
