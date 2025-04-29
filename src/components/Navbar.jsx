@@ -83,19 +83,7 @@ const NavMenu2 = () => {
   const [showSearch, setShowSearch] = useState(false);
   const handleSearch = () => {
     if (searchQuery.trim()) {
-      const lowerCaseQuery = searchQuery.toLowerCase();
-  
-      const filteredProducts = products.filter((product) =>
-        product.name.toLowerCase().includes(lowerCaseQuery) ||
-        product.category.toLowerCase().includes(lowerCaseQuery) ||
-        product.brand.toLowerCase().includes(lowerCaseQuery)
-      );
-  
-      // Stockage temporaire pour récupération dans la page de résultats
-      localStorage.setItem("searchResults", JSON.stringify(filteredProducts));
-  
-      // Redirection vers la page search
-      navigate(`/search?query=${encodeURIComponent(searchQuery.trim())}`);
+      navigate(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
   

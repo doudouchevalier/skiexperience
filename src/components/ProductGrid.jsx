@@ -11,6 +11,8 @@ const ProductGrid = () => {
 	const genderFilter = searchParams.get('gender') || '';
 	const categoryFilter = searchParams.get('category') || '';
 	const brandFilter = searchParams.get('brand') || '';
+	const searchFilter = searchParams.get('search')?.toLowerCase() || '';
+
 
 
 	const handleGenderChange = (value) => {
@@ -37,7 +39,17 @@ const ProductGrid = () => {
 		const genderMatch = !genderFilter || product.gender === genderFilter;
 		const categoryMatch = !categoryFilter || product.category === categoryFilter;
 		const brandMatch = !brandFilter || product.brand === brandFilter;
-		return genderMatch && categoryMatch && brandMatch;
+
+		const searchMatch =
+			!searchFilter ||
+			product.name.toLowerCase().includes(searchFilter) ||
+			product.category.toLowerCase().includes(searchFilter) ||
+			product.brand.toLowerCase().includes(searchFilter);
+
+
+
+
+		return genderMatch && categoryMatch && brandMatch && searchMatch;
 	});
 
 	return (
