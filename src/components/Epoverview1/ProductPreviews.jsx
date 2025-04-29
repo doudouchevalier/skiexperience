@@ -23,8 +23,8 @@ const ProductPreviews = ({ previews }) => {
 								type="button"
 								onClick={() => setIndex(i)}
 								className={`w-20 h-20 p-1 border rounded-lg overflow-hidden transition ${index === i
-										? "border-blue-600 ring-2 ring-blue-300"
-										: "border-gray-300 hover:border-blue-400"
+									? "border-blue-600 ring-2 ring-blue-300"
+									: "border-gray-300 hover:border-blue-400"
 									}`}
 							>
 								<img

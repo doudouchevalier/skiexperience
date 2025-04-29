@@ -6,34 +6,10 @@ import logoSki from "../assets/logoski.png";
 
 // Routes avec sous-menus
 const routes = [
-<<<<<<< HEAD
 	{ name: "Homme", href: "/products?gender=man", isActive: true },
 	{ name: "Femme", href: "/products?gender=woman", isActive: false },
 	{ name: "Equipement", href: "#", isActive: false },
 	{ name: "Marques", href: "#", isActive: false },
-=======
-  {
-    name: "Homme",
-    href: "/items?gender=man",
-    isActive: true,
-    submenu: [
-      { label: "Vestes", href: "/items?gender=man&type=vestes" },
-      { label: "Pantalons", href: "/items?gender=man&type=pantalons" },
-      { label: "Accessoires", href: "/items?gender=man&type=accessoires" },
-    ],
-  },
-  {
-    name: "Femme",
-    href: "/items?gender=woman",
-    isActive: false,
-    submenu: [
-      { label: "Vestes", href: "/items?gender=woman&type=vestes" },
-      { label: "Leggings", href: "/items?gender=woman&type=leggings" },
-    ],
-  },
-  { name: "Equipement", href: "#", isActive: false },
-  { name: "Marques", href: "#", isActive: false },
->>>>>>> 1cb995d03b99c8a51c3eeeb22c103c9cb649221d
 ];
 
 // Menu principal

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import productsData from "../data/all_products_deduplicated.json";
+import productsData from "../data/all_products.json";
 import ProductPreviews from "./Epoverview1/ProductPreviews";
 import ColorVariant from "./Epoverview1/ColorVariant";
 // import SizeVariant from "./Epoverview1/SizeVariant"; // si tu veux le remettre plus tard

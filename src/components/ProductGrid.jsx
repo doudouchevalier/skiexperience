@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import products from '../data/products.json';
-import products from '../data/all_products_deduplicated.json'
+import products from '../data/all_products.json'
 import ProductCard from './ProductCard.jsx';
 import Filter from './Filter.jsx'; // <-- ajout du composant
 import { useSearchParams } from 'react-router-dom';
