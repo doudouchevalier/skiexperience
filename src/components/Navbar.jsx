@@ -127,7 +127,7 @@ const NavMenu2 = () => {
 {/* Bouton 🔍 */}
         <button
           onClick={() => setShowSearch(!showSearch)}
-          className="relative bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2"
+          className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2"
         >
           <FontAwesomeIcon icon={faSearch} />
         </button>
@@ -135,7 +135,7 @@ const NavMenu2 = () => {
         {/* Bouton ❤️ avec badge */}
         <a
           href="/favorites"
-          className="relative bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2"
+          className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2"
         >
           <FontAwesomeIcon icon={faHeart} />
           {favoriteCount > 0 && (
@@ -148,7 +148,7 @@ const NavMenu2 = () => {
         {/* Bouton 🛒 */}
         <a
           href="/cart"
-          className="bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2"
+          className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2"
         >
           <FontAwesomeIcon icon={faShoppingCart} />
         </a>
