@@ -1,11 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import ErrorPage from "../pages/NotFound";
-import Home from "../pages/home";
-import Cart from "../pages/cart";
+import Home from "../pages/Home";
+import CartPage from "../pages/CartPage";
 import Items from "../pages/items";
 import Product from '../pages/Product';
 import SearchResults from "../pages/SearchResult";
+import Favorites from "../pages/Favorites";
 
 const router = createBrowserRouter([
   {
@@ -18,16 +19,20 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/my-cart",
-        element: <Cart />
+        path: "/cart",
+        element: <CartPage />
       },
       {
         path: "/products",
         element: <Items />
       },
       {
-        path: "/product/:id", // ici on met :id pour matcher avec useParams().id
+        path: "/product/:id",
         element: <Product />
+      },
+      {
+        path: "/favorites",
+        element: <Favorites />
       },
       {
         path: "/search",

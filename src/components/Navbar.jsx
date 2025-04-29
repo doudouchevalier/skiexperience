@@ -1,9 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons"; // ✅ manquant
 import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import PropTypes from "prop-types";
 import logoSki from "../assets/logoski.png";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import products from "../data/all_products.json"; // adapte le chemin si besoin
 
 
@@ -18,7 +20,7 @@ const routes = [
     submenu: [
       { label: "jacket", href: "/products?gender=man&category=jacket" },
       { label: "pants", href: "/products?gender=man&category=pants" },
-      { label: "shirt", href: "/products?gender=man&category=shirt" },
+      { label: "shirt", href: "/products?gender=woman&category=shirt" },
     ],
   },
   {
@@ -41,9 +43,8 @@ const NavMenu = ({ routes }) => (
     {routes.map((route, i) => (
       <li key={i} className="group relative">
         <a
-          className={`px-4 py-2 transition-opacity ${
-            route.isActive ? "opacity-100" : "opacity-60 hover:opacity-100"
-          }`}
+          className={`px-4 py-2 transition-opacity ${route.isActive ? "opacity-100" : "opacity-60 hover:opacity-100"
+            }`}
           href={route.href}
         >
           {route.name}
@@ -88,6 +89,23 @@ const NavMenu2 = () => {
   
   
 
+  const [favoriteCount, setFavoriteCount] = useState(0);
+
+  useEffect(() => {
+    // Lire et compter les favoris au chargement
+    const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+    setFavoriteCount(favorites.length);
+    
+    // Optionnel : Ajouter un listener pour détecter les mises à jour (dans un projet plus structuré, on passerait par du contexte global)
+    const handleStorageChange = () => {
+      const updatedFavorites = JSON.parse(localStorage.getItem("favorites")) || [];
+      setFavoriteCount(updatedFavorites.length);
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+    return () => window.removeEventListener("storage", handleStorageChange);
+  }, []);
+
   return (
     <ul className="flex items-center justify-center mb-2 lg:mb-0">
       <li className="flex items-center space-x-2">
@@ -106,14 +124,35 @@ const NavMenu2 = () => {
       />
 
         </div>
-        <button onClick={() => setShowSearch(!showSearch)} className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2">
+{/* Bouton 🔍 */}
+        <button
+          onClick={() => setShowSearch(!showSearch)}
+          className="relative bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2"
+        >
           <FontAwesomeIcon icon={faSearch} />
         </button>
-        
-        <button className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2">
+
+        {/* Bouton ❤️ avec badge */}
+        <a
+          href="/favorites"
+          className="relative bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2"
+        >
+          <FontAwesomeIcon icon={faHeart} />
+          {favoriteCount > 0 && (
+            <span className="absolute -top-1 -right-1 bg-yellow-300 text-xs font-bold text-black rounded-full px-1.5">
+              {favoriteCount}
+            </span>
+          )}
+        </a>
+
+        {/* Bouton 🛒 */}
+        <a
+          href="/cart"
+          className="bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2"
+        >
           <FontAwesomeIcon icon={faShoppingCart} />
-        </button>
-      
+        </a>
+
       </li>
     </ul>
   );
