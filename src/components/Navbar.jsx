@@ -7,20 +7,14 @@ import logoSki from "../assets/logoski.png";
 
 // Routes avec sous-menus
 const routes = [
-<<<<<<< HEAD
-	{ name: "Homme", href: "/products?gender=man", isActive: true },
-	{ name: "Femme", href: "/products?gender=woman", isActive: false },
-	{ name: "Equipement", href: "#", isActive: false },
-	{ name: "Marques", href: "#", isActive: false },
-=======
   {
     name: "Homme",
     href: "/products?gender=man",
     isActive: true,
     submenu: [
-      { label: "Vestes", href: "/products?gender=man&type=vestes" },
-      { label: "Pantalons", href: "/products?gender=man&type=pantalons" },
-      { label: "Accessoires", href: "/products?gender=man&type=accessoires" },
+      { label: "jacket", href: "/products?gender=man&category=jacket" },
+      { label: "pants", href: "/products?gender=man&category=pants" },
+      { label: "shirt", href: "/products?gender=man&category=shirt" },
     ],
   },
   {
@@ -28,13 +22,13 @@ const routes = [
     href: "/products?gender=woman",
     isActive: false,
     submenu: [
-      { label: "Vestes", href: "/products?gender=woman&type=vestes" },
-      { label: "Leggings", href: "/products?gender=woman&type=leggings" },
+      { label: "jacket", href: "/products?gender=woman&category=jacket" },
+      { label: "pants", href: "/products?gender=woman&category=pants" },
+      { label: "shirt", href: "/products?gender=woman&category=shirt" },
     ],
   },
   { name: "Equipement", href: "#", isActive: false },
   { name: "Marques", href: "#", isActive: false },
->>>>>>> 3f3c8c2f882604209fa32743a00b5477deae4f7b
 ];
 
 // Menu principal
