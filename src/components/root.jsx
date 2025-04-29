@@ -5,6 +5,7 @@ import Home from "../pages/home";
 import Cart from "../pages/cart";
 import Items from "../pages/items";
 import Product from '../pages/Product';
+import SearchResults from "../pages/SearchResult";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,12 @@ const router = createBrowserRouter([
       {
         path: "/product/:id", // ici on met :id pour matcher avec useParams().id
         element: <Product />
+      },
+      {
+        path: "/search",
+        element: <SearchResults />
       }
+      
     ]
   }
 ]);

@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import slide1 from "../assets/slide1home.jpg";
 import slide2 from "../assets/slide2home.jpg";
+import slide3 from "../assets/slide3home.jpg";
+import slide4 from "../assets/slide4home.jpg";
 
-const slides = [slide1, slide2];
+const slides = [slide1, slide2, slide3, slide4];
 
 const CarouselHero = () => {
   const [current, setCurrent] = useState(0);
@@ -23,7 +25,7 @@ const CarouselHero = () => {
   }, []);
 
   return (
-    <div className="relative h-[60vh] w-full overflow-hidden shadow-lg -mt-50">
+    <div className="relative h-[60vh] w-full overflow-hidden shadow-lg -mt-70">
       {slides.map((img, index) => (
         <div
           key={index}

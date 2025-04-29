@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import PropTypes from "prop-types";
 import logoSki from "../assets/logoski.png";
+import { useNavigate } from "react-router-dom";
+import products from "../data/all_products.json"; // adapte le chemin si besoin
+
+
 
 
 // Routes avec sous-menus
@@ -73,22 +77,52 @@ NavMenu.propTypes = {
 
 // Menu icônes (search + panier)
 const NavMenu2 = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+  const navigate = useNavigate();
   const [showSearch, setShowSearch] = useState(false);
+  const handleSearch = () => {
+    if (searchQuery.trim()) {
+      const lowerCaseQuery = searchQuery.toLowerCase();
+  
+      const filteredProducts = products.filter((product) =>
+        product.name.toLowerCase().includes(lowerCaseQuery) ||
+        product.category.toLowerCase().includes(lowerCaseQuery) ||
+        product.brand.toLowerCase().includes(lowerCaseQuery)
+      );
+  
+      // Stockage temporaire pour récupération dans la page de résultats
+      localStorage.setItem("searchResults", JSON.stringify(filteredProducts));
+  
+      // Redirection vers la page search
+      navigate(`/search?query=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
+  
+  
 
   return (
     <ul className="flex items-center justify-center mb-2 lg:mb-0">
       <li className="flex items-center space-x-2">
         <div className={`transition-all duration-300 ease-in-out overflow-hidden ${showSearch ? "w-48 opacity-100" : "w-0 opacity-0"}`}>
-          <input
-            type="text"
-            placeholder="Recherche..."
-            className="px-3 py-2 border rounded-full w-full text-sm focus:outline-none"
-          />
+        <input
+          type="text"
+          placeholder="Recherche..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              handleSearch();
+            }
+      }}
+      className="px-3 py-2 border rounded-full w-full text-sm focus:outline-none"
+      />
+
         </div>
-        <button onClick={() => setShowSearch(!showSearch)} className="bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2 ml-2">
+        <button onClick={() => setShowSearch(!showSearch)} className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2">
           <FontAwesomeIcon icon={faSearch} />
         </button>
-        <button className="bg-blue-600 text-white hover:bg-opacity-90 rounded-lg px-4 py-2">
+        
+        <button className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2">
           <FontAwesomeIcon icon={faShoppingCart} />
         </button>
       
