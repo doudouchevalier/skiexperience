@@ -81,7 +81,7 @@ const ProductOverview = ({ productId }) => {
 						/>
 					</div>
 					<div className="col-span-2 md:col-span-1">
-						<h1 className="text-2xl md:text-4xl font-medium mb-4">{product.name}</h1>
+						<h1 className="text-2xl md:text-4xl font-medium mb-4 font-exo2">{product.name}</h1>
 						<h3 className="text-2xl text-blue-600 font-medium mb-6">{product.price}€</h3>
 						
 						<form className="mt-6 space-y-4">
@@ -119,7 +119,7 @@ const ProductOverview = ({ productId }) => {
 						</form>
 					</div>
 				</div>
-				<h4 className="text-lg font-semibold mt-10 mb-2">ℹ️ Informations techniques</h4>
+				<h4 className="text-lg font-semibold font-exo2 mt-10 mb-2">ℹ️ Informations techniques</h4>
 <div className="text-sm md:text-base text-zinc-700 leading-relaxed space-y-4">
 	<p>
 		Ce modèle de haute performance associe <strong>confort</strong>, <strong>durabilité</strong> et <strong>style</strong>, conçu pour accompagner aussi bien vos activités sportives que votre quotidien.

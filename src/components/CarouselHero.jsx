@@ -41,7 +41,6 @@ const CarouselHero = () => {
         </div>
       ))}
 
-      {/* Flèche gauche */}
       <button
         onClick={prevSlide}
         className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 z-20 focus:outline-none"
@@ -49,10 +48,9 @@ const CarouselHero = () => {
         <FontAwesomeIcon icon={faChevronLeft} className="text-xl text-gray-700" />
       </button>
 
-      {/* Flèche droite */}
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 z-20"
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 z-20 focus:outline-none"
       >
         <FontAwesomeIcon icon={faChevronRight} className="text-xl text-gray-700" />
       </button>

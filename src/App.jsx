@@ -5,7 +5,6 @@ import Navigation from './components/Navbar';
 import { Toaster } from 'react-hot-toast';
 import './App.css';
 import Footer from './components/Footer';
-
 export default function App() {
   return (
     <CartProvider>

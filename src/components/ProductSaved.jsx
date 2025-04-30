@@ -12,7 +12,7 @@ const ProductSaved = ({ item, onRemove }) => {
           className="w-16 sm:w-20 md:w-24 lg:w-28 object-contain rounded-lg bg-white transition-all"
         />
         <div className="flex flex-col">
-          <h3 className="text-lg font-semibold">{item.name}</h3>
+          <h3 className="text-lg text-black font-semibold">{item.name}</h3>
           <p className="text-sm text-gray-500">{item.brand}</p>
           <p className="text-blue-600 font-semibold text-lg mt-1">{item.price}€</p>
           <p className="text-sm text-gray-500">Quantité: {item.quantity}</p>

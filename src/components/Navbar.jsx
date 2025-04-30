@@ -19,9 +19,9 @@ const routes = [
     href: "/products?gender=man",
     isActive: true,
     submenu: [
-      { label: "jacket", href: "/products?gender=man&category=jacket" },
-      { label: "pants", href: "/products?gender=man&category=pants" },
-      { label: "shirt", href: "/products?gender=woman&category=shirt" },
+      { label: "Vestes", href: "/products?gender=man&category=jacket" },
+      { label: "Pantalons", href: "/products?gender=man&category=pants" },
+      { label: "Chemises", href: "/products?gender=woman&category=shirt" },
     ],
   },
   {
@@ -29,13 +29,18 @@ const routes = [
     href: "/products?gender=woman",
     isActive: false,
     submenu: [
-      { label: "jacket", href: "/products?gender=woman&category=jacket" },
-      { label: "pants", href: "/products?gender=woman&category=pants" },
-      { label: "shirt", href: "/products?gender=woman&category=shirt" },
+      { label: "Vestes", href: "/products?gender=woman&category=jacket" },
+      { label: "Pantalons", href: "/products?gender=woman&category=pants" },
+      { label: "Chemises", href: "/products?gender=woman&category=shirt" },
     ],
   },
   { name: "Equipement", href: "#", isActive: false },
-  { name: "Marques", href: "#", isActive: false },
+  { name: "Marques", href: "/products?search=rehall", isActive: false,
+    submenu: [
+      { label: "Rehall", href: "/products?brand=Rehall" },
+      { label: "Norrona", href: "/products?brand=Norrona" }
+    ]
+   }
 ];
 
 // Menu principal
@@ -44,7 +49,7 @@ const NavMenu = ({ routes }) => (
     {routes.map((route, i) => (
       <li key={i} className="group relative">
         <a
-          className={`px-4 py-2 transition-opacity ${route.isActive ? "opacity-100" : "opacity-60 hover:opacity-100"
+          className={`px-4 font-exo2 py-2 transition-opacity ${route.isActive ? "opacity-100" : "opacity-60 hover:opacity-100"
             }`}
           href={route.href}
         >
@@ -59,7 +64,7 @@ const NavMenu = ({ routes }) => (
                 <li key={index}>
                   <a
                     href={item.href}
-                    className="block text-sm text-gray-700 hover:text-blue-600"
+                    className="block font-exo2 text-sm text-gray-700 hover:text-blue-600"
                   >
                     {item.label}
                   </a>
@@ -84,7 +89,7 @@ const NavMenu2 = () => {
   const navigate = useNavigate();
   const [favoriteCount, setFavoriteCount] = useState(0);
 
-  const { cartItems } = useCart(); // ✅ utilisation du contexte panier
+  const { cartItems } = useCart(); 
   const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0); // calcul du total
 
   useEffect(() => {
@@ -131,7 +136,7 @@ const NavMenu2 = () => {
         <a href="/favorites" className="relative bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2">
           <FontAwesomeIcon icon={faHeart} />
           {favoriteCount > 0 && (
-            <span className="absolute -top-1 -right-1 bg-yellow-300 text-xs font-bold text-black rounded-full px-1.5">
+            <span className="absolute -top-1 -right-1 bg-[#f35e57] text-xs font-bold text-white rounded-full px-1.5">
               {favoriteCount}
             </span>
           )}
@@ -141,7 +146,7 @@ const NavMenu2 = () => {
         <a href="/cart" className="relative bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2">
           <FontAwesomeIcon icon={faShoppingCart} />
           {cartCount > 0 && (
-            <span className="absolute -top-1 -right-1 bg-yellow-300 text-xs font-bold text-black rounded-full px-1.5">
+            <span className="absolute -top-1 -right-1 bg-[#f35e57] text-xs font-bold text-white rounded-full px-1.5">
               {cartCount}
             </span>
           )}
@@ -167,7 +172,7 @@ const Navigation = () => {
           <a className="font-black text-3xl" href="/">
             <img src={logoSki} alt="Logo" className="h-10" />
           </a>
-          <span onClick={() => (window.location.href = "/")} className="font-black text-3xl min-w-[33%] cursor-pointer">
+          <span onClick={() => (window.location.href = "/")} className="font-black text-3xl min-w-[33%] cursor-pointer font-exo2">
             Ski Experience
           </span>
           <button
