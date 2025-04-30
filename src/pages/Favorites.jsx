@@ -1,16 +1,15 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import { toast } from "react-hot-toast";
 import { useFavorites } from "../components/FavoritesContext"; // Import du contexte
+import ProductSaved from "../components/ProductSaved"; // Import du composant réutilisable
 
 import productsData from "../data/all_products.json";
 
 const Favorites = () => {
-  // Utilisation du contexte pour récupérer les favoris
   const { favoriteIds, toggleFavorite } = useFavorites();
 
   const handleRemove = (id) => {
-    toggleFavorite(id); // Toggle favori pour retirer
+    toggleFavorite(id);
     toast.success("Produit retiré des favoris.");
   };
 
@@ -26,29 +25,9 @@ const Favorites = () => {
             Vous n'avez pas encore ajouté de produits en favoris.
           </div>
         ) : (
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6">
+          <div className="grid grid-cols-1 gap-6">
             {favoriteProducts.map((product) => (
-              <div
-                key={product.id}
-                className="bg-white rounded-2xl shadow hover:shadow-lg transition p-4 flex flex-col"
-              >
-                <Link to={`/product/${product.id}`}>
-                  <img
-                    src={product.front_image}
-                    alt={product.name}
-                    className="rounded-xl w-full h-60 object-cover mb-4"
-                  />
-                  <h3 className="text-lg font-semibold">{product.name}</h3>
-                  <p className="text-sm text-gray-500">{product.brand}</p>
-                  <p className="text-blue-600 font-semibold text-lg mt-1">{product.price}€</p>
-                </Link>
-                <button
-                  onClick={() => handleRemove(product.id)}
-                  className="mt-4 py-2 px-4 bg-red-100 text-red-600 rounded-lg text-sm hover:bg-red-200 self-start"
-                >
-                  Retirer
-                </button>
-              </div>
+              <ProductSaved key={product.id} item={product} onRemove={handleRemove} />
             ))}
           </div>
         )}

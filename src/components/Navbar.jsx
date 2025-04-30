@@ -7,6 +7,7 @@ import logoSki from "../assets/logoski.png";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import products from "../data/all_products.json"; // adapte le chemin si besoin
+import { useCart } from "../components/CartContext"; // 🔁 à ajouter en haut
 
 
 
@@ -79,24 +80,17 @@ NavMenu.propTypes = {
 // Menu icônes (search + panier)
 const NavMenu2 = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const navigate = useNavigate();
   const [showSearch, setShowSearch] = useState(false);
-  const handleSearch = () => {
-    if (searchQuery.trim()) {
-      navigate(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
-    }
-  };
-  
-  
-
+  const navigate = useNavigate();
   const [favoriteCount, setFavoriteCount] = useState(0);
 
+  const { cartItems } = useCart(); // ✅ utilisation du contexte panier
+  const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0); // calcul du total
+
   useEffect(() => {
-    // Lire et compter les favoris au chargement
     const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
     setFavoriteCount(favorites.length);
-    
-    // Optionnel : Ajouter un listener pour détecter les mises à jour (dans un projet plus structuré, on passerait par du contexte global)
+
     const handleStorageChange = () => {
       const updatedFavorites = JSON.parse(localStorage.getItem("favorites")) || [];
       setFavoriteCount(updatedFavorites.length);
@@ -106,25 +100,26 @@ const NavMenu2 = () => {
     return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
 
+  const handleSearch = () => {
+    if (searchQuery.trim()) {
+      navigate(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
+
   return (
-    <ul className="flex items-center justify-center mb-2 lg:mb-0">
+    <ul className="flex items-center justify-center mb-2 lg:mb-0 relative space-x-2">
       <li className="flex items-center space-x-2">
         <div className={`transition-all duration-300 ease-in-out overflow-hidden ${showSearch ? "w-48 opacity-100" : "w-0 opacity-0"}`}>
-        <input
-          type="text"
-          placeholder="Recherche..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              handleSearch();
-            }
-      }}
-      className="px-3 py-2 border rounded-full w-full text-sm focus:outline-none"
-      />
-
+          <input
+            type="text"
+            placeholder="Recherche..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+            className="px-3 py-2 border rounded-full w-full text-sm focus:outline-none"
+          />
         </div>
-{/* Bouton 🔍 */}
+
         <button
           onClick={() => setShowSearch(!showSearch)}
           className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2"
@@ -132,11 +127,8 @@ const NavMenu2 = () => {
           <FontAwesomeIcon icon={faSearch} />
         </button>
 
-        {/* Bouton ❤️ avec badge */}
-        <a
-          href="/favorites"
-          className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2"
-        >
+        {/* ❤️ Favoris avec badge */}
+        <a href="/favorites" className="relative bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2">
           <FontAwesomeIcon icon={faHeart} />
           {favoriteCount > 0 && (
             <span className="absolute -top-1 -right-1 bg-yellow-300 text-xs font-bold text-black rounded-full px-1.5">
@@ -145,18 +137,20 @@ const NavMenu2 = () => {
           )}
         </a>
 
-        {/* Bouton 🛒 */}
-        <a
-          href="/cart"
-          className="bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2"
-        >
+        {/* 🛒 Panier avec badge */}
+        <a href="/cart" className="relative bg-white text-black hover:bg-gray-100 rounded-lg px-4 py-2 ml-2">
           <FontAwesomeIcon icon={faShoppingCart} />
+          {cartCount > 0 && (
+            <span className="absolute -top-1 -right-1 bg-yellow-300 text-xs font-bold text-black rounded-full px-1.5">
+              {cartCount}
+            </span>
+          )}
         </a>
-
       </li>
     </ul>
   );
-}
+};
+
 
 // Composant principal
 const Navigation = () => {

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "./CartContext.jsx"; // Import du contexte Cart
 import { toast } from "react-hot-toast";
+import ProductSaved from "./ProductSaved.jsx"; // 👈 Ajoute cette ligne en haut
 
 const Cart = () => {
   const { cartItems, removeFromCart, clearCart } = useCart();
@@ -30,30 +31,9 @@ const Cart = () => {
         ) : (
           <div className="grid grid-cols-1 gap-6">
             {cartItems.map((item) => (
-              <div
-                key={item.id}
-                className="bg-white rounded-2xl shadow hover:shadow-lg transition p-4 flex flex-col"
-              >
-                <Link to={`/product/${item.id}`}>
-                  <img
-                    src={item.front_image}
-                    alt={item.name}
-                    className="rounded-xl w-full h-60 object-contain mb-4 bg-white"
-                  />
+  <ProductSaved key={item.id} item={item} onRemove={handleRemove} />
+))}
 
-                  <h3 className="text-lg font-semibold">{item.name}</h3>
-                  <p className="text-sm text-gray-500">{item.brand}</p>
-                  <p className="text-blue-600 font-semibold text-lg mt-1">{item.price}€</p>
-                  <p className="text-sm text-gray-500">Quantité: {item.quantity}</p>
-                </Link>
-                <button
-                  onClick={() => handleRemove(item.id)}
-                  className="mt-4 py-2 px-4 bg-red-100 text-red-600 rounded-lg text-sm hover:bg-red-200 self-start"
-                >
-                  Retirer
-                </button>
-              </div>
-            ))}
             <div className="text-right mt-6">
               <p className="text-xl font-semibold">Total: {totalPrice}€</p>
               <button
