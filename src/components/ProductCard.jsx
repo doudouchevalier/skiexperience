@@ -69,7 +69,7 @@ const ProductCard = ({ product }) => {
 					{/* 💬 Infos produit */}
 					<div className="py-2 px-1 flex-grow">
 					<div className="flex justify-between items-center w-full">
-						<p className="hover:text-blue-600 text-[clamp(0.55rem,1vw,0.75rem)] font-medium leading-snug">
+						<p className="text-black hover:text-blue-600 text-[clamp(0.55rem,1vw,0.75rem)] font-medium leading-snug">
 						<b>{product.brand}</b> {product.name}
 						</p>
 						<p className="hover:text-blue-600 font-semibold text-[clamp(0.55rem,1vw,0.75rem)] whitespace-nowrap">

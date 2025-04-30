@@ -21,7 +21,7 @@ const Cart = () => {
   return (
     <section className="py-20 px-4 bg-gray-100 min-h-screen">
       <div className="container mx-auto">
-        <h1 className="text-4xl font-bold mb-8 text-center">Mon panier 🛒</h1>
+        <h1 className="text-4xl text-black font-bold mb-8 text-center">Mon panier 🛒</h1>
 
         {cartItems.length === 0 ? (
           <div className="text-center text-gray-500 text-lg">

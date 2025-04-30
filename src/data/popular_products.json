@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "ELIAS-R vest",
+      "brand": "Rehall",
+      "price": "69,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/8041d41f-5108-4d3f-b355-cc75338dda5b_720x1008.jpg?v=1729559725",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/77b79778-a825-43c2-b01d-07205abb15aa_720x1008.jpg?v=1729559732"
+    },
+    {
+      "id": 20,
+      "name": "AXEL-R jacket",
+      "brand": "Rehall",
+      "price": "169,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/994b3acd-c2f1-47de-8e2b-602df60978e1_720x1008.jpg?v=1732583970",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/541de20b-048f-4f8b-9927-3a5ee489535a_720x1008.jpg?v=1732583973"
+    },
+    {
+      "id": 12,
+      "name": "COOK-R skipully",
+      "brand": "Rehall",
+      "price": "39,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/47b70371-0be1-4c5d-951b-08dc83422779_720x1008.jpg?v=1729558142",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/2cc4d8d2-6ea4-4fcd-a2f1-32522ae7eff0_720x1008.jpg?v=1729558150"
+    },
+    {
+      "id": 23,
+      "name": "CAMEROON-R jacket",
+      "brand": "Rehall",
+      "price": "279,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/3c9d53e0-667b-46e8-9c59-14202f205f59_720x1008.jpg?v=1729555808",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/34af2221-b08b-46a8-8ac0-00bf45023e80_720x1008.jpg?v=1729555815"
+    },
+    {
+      "id": 28,
+      "name": "FELIX-R jacket",
+      "brand": "Rehall",
+      "price": "149,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/e1f38c51-e3b0-4b2b-82d4-56d21d7182c5_720x1008.jpg?v=1734491731",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/f3111de3-3b99-46b8-af25-7e92839991af_720x1008.jpg?v=1734491733"
+    },
+    {
+      "id": 30,
+      "name": "FLUFFY-R jacket",
+      "brand": "Rehall",
+      "price": "99,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/43b97fdd-293a-4dbb-bc5f-1a9654e65390_720x1008.jpg?v=1733796646",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/29f52e35-7322-4710-aa83-022e184f958a_720x1008.jpg?v=1733796650"
+    },
+    {
+      "id": 33,
+      "name": "LIZA-R jacket",
+      "brand": "Rehall",
+      "price": "149,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/818ae315-5d2e-44d3-a726-8f573b4d3138_720x1008.jpg?v=1733793784",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/74c04bbf-d1a7-493e-b887-eb848101b424_720x1008.jpg?v=1733793787"
+    },
+    {
+      "id": 35,
+      "name": "MEAVE-R jacket",
+      "brand": "Rehall",
+      "price": "179,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/0052059f-f617-46a8-ad65-3d28688f4a1b_720x1008.jpg?v=1732847128",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/7ccdee43-2a08-4c29-9916-94f69af36309_720x1008.jpg?v=1732847132"
+    },
+    {
+      "id": 36,
+      "name": "PUFFY-R jacket",
+      "brand": "Rehall",
+      "price": "139,99",
+      "front_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/74f3119d-223d-4f29-a0ff-f133b7c43898_720x1008.jpg?v=1733794396",
+      "back_image": "https://cdn.shopify.com/s/files/1/0659/2610/3226/files/1419c765-e525-492c-9dde-1d044835228a_720x1008.jpg?v=1733794401"
+    }
+  ]
+  

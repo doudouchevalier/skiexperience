@@ -160,6 +160,12 @@ const NavMenu2 = () => {
 
 // Composant principal
 const Navigation = () => {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileOpen(!mobileOpen);
+  };
+
   return (
     <div className="ezy__nav5 light py-3 bg-white text-zinc-900 w-full fixed top-0 left-0 z-50">
       <nav className="w-full">
@@ -174,6 +180,7 @@ const Navigation = () => {
             className="block lg:hidden cursor-pointer h-10 z-20"
             type="button"
             id="hamburger"
+            onClick={toggleMobileMenu}
           >
             <div className="h-0.5 w-7 bg-black -translate-y-2" />
             <div className="h-0.5 w-7 bg-black" />
